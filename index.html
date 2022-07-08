@@ -145,7 +145,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://daisukimarisada.github.io/2022/07/08/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://daisukimarisada.github.io/2022/07/09/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85canvas-nest-%E5%8A%A8%E6%80%81%E7%BA%BF%E6%9D%A1-%E6%8F%92%E4%BB%B6/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -159,7 +159,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2022/07/08/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
+            <a href="/2022/07/09/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85canvas-nest-%E5%8A%A8%E6%80%81%E7%BA%BF%E6%9D%A1-%E6%8F%92%E4%BB%B6/" class="post-title-link" itemprop="url">如何安装canvas-nest(动态线条)插件</a>
         </h2>
 
         <div class="post-meta">
@@ -168,8 +168,9 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2022-07-08 22:07:05" itemprop="dateCreated datePublished" datetime="2022-07-08T22:07:05+08:00">2022-07-08</time>
+              <time title="创建时间：2022-07-09 01:16:01 / 修改时间：01:16:29" itemprop="dateCreated datePublished" datetime="2022-07-09T01:16:01+08:00">2022-07-09</time>
             </span>
 
           
@@ -183,20 +184,15 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
+          <h1 id="hexo博客框架如何安装canvas-nest-动态线条-插件-这里我以next主题演示其他主题大同小异"><a href="#hexo博客框架如何安装canvas-nest-动态线条-插件-这里我以next主题演示其他主题大同小异" class="headerlink" title="hexo博客框架如何安装canvas-nest(动态线条)插件(这里我以next主题演示其他主题大同小异)"></a>hexo博客框架如何安装canvas-nest(动态线条)插件(这里我以next主题演示其他主题大同小异)</h1><h2 id="添加动态线条"><a href="#添加动态线条" class="headerlink" title="添加动态线条"></a>添加动态线条</h2><h5 id="1-添加动态背景"><a href="#1-添加动态背景" class="headerlink" title="1.添加动态背景"></a>1.添加动态背景</h5><p>blog更目录打开cmd,输入</p>
+<p>git clone <a target="_blank" rel="noopener" href="https://github.com/theme-next/theme-next/theme-next-canvas-nest">https://github.com/theme-next/theme-next/theme-next-canvas-nest</a> </p>
+<p>themes&#x2F;next&#x2F;source&#x2F;lib&#x2F;canvas-nest</p>
+<h5 id="2-增加波浪背景动画"><a href="#2-增加波浪背景动画" class="headerlink" title="2.增加波浪背景动画"></a>2.增加波浪背景动画</h5><p>继续输入</p>
+<p>git clone <a target="_blank" rel="noopener" href="https://github.com/theme-next/theme-next-three">https://github.com/theme-next/theme-next-three</a> themes&#x2F;next&#x2F;source&#x2F;lib&#x2F;three</p>
+<h5 id="3-配置"><a href="#3-配置" class="headerlink" title="3.配置"></a>3.配置</h5><p>\blog\themes\next_config.yml(配置详见： <a target="_blank" rel="noopener" href="https://github.com/hustcc/canvas-nest.js#configuration">https://github.com/hustcc/canvas-nest.js#configuration</a>)</p>
+<p>该文件下添加代码</p>
+<p>canvas_nest:<br>  enable: true<br>  color: ‘0, 0, 0’        # 线条颜色，默认：<code>&#39;0,0,0&#39;</code>；三个数字分别为(R,G,B)，注意用，分割<br>  pointColor: ‘156,39,176’     # 交点颜色，默认：<code>&#39;0,0,0&#39;</code>；三个数字分别为(R,G,B)，注意用，分割<br>  opacity: ‘0.8’               # 线条透明度（0~1）, 默认: <code>0.5</code><br>  count: ‘99’                  # 线条的总数量, 默认:<code>99</code><br>  zIndex: ‘-1’                 # 背景的z-index属性，css属性用于控制所在层的位置, 默认: <code>-1</code></p>
+<h5 id="4-大功告成"><a href="#4-大功告成" class="headerlink" title="4.大功告成"></a>4.大功告成</h5>
       
     </div>
 
